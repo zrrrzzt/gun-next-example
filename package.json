@@ -1,0 +1,55 @@
+{
+  "name": "gun-next-example",
+  "version": "1.0.0",
+  "description": "Example app with GUN and Next.js",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrrrzzt/gun-next-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zrrrzzt/gun-next-example/issues"
+  },
+  "homepage": "https://github.com/zrrrzzt/gun-next-example#readme",
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
+    "now-deploy": "npm run export && now --static out --name gun-next-example"
+  },
+  "keywords": [
+    "gun",
+    "next",
+    "example"
+  ],
+  "dependencies": {
+    "gun": "0.9.8",
+    "next": "4.2.3",
+    "react": "16.2.0",
+    "react-dom": "16.2.0"
+  },
+  "devDependencies": {
+    "ava": "0.24.0",
+    "coveralls": "3.0.0",
+    "nsp": "3.1.0",
+    "nyc": "11.4.1",
+    "standard": "10.0.3"
+  }
+}
