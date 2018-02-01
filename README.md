@@ -39,7 +39,7 @@ Deploy the `out`folder wherever you like
 If you use [now](https://zeit.co/now) it's even easier to deploy the app
 
 ```bash
-$ npm run now-deploy
+$ npm run deploy
 ```
 
 ## License
