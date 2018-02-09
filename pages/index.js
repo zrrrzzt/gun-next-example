@@ -1,7 +1,7 @@
 import React from 'react'
+import Gun from 'gun/gun'
 import Layout from '../components/Layout'
 const qs = require('querystring')
-const Gun = require('gun/gun')
 
 const gun = Gun('https://gunjs.herokuapp.com/gun')
 
