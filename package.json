@@ -1,6 +1,6 @@
 {
   "name": "gun-next-example",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Example app with GUN and Next.js",
   "private": true,
   "license": "MIT",
