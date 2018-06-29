@@ -5,6 +5,8 @@
 
 Example app with [GUN](https://github.com/amark/gun) and [Next.js](https://github.com/zeit/next.js)
 
+See it live [gun-next.example.allthethings.win](https://gun-next.example.allthethings.win)
+
 ## Setup
 
 Clone the repo and install dependencies
