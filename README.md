@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/zrrrzzt/gun-next-example.svg?branch=master)](https://travis-ci.org/zrrrzzt/gun-next-example)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/zrrrzzt/gun-next-example.svg)](https://greenkeeper.io/)
 
 # gun-next-example
 
@@ -32,7 +31,7 @@ To export the app to static
 $ npm run export
 ```
 
-Deploy the `out`folder wherever you like
+Deploy the `out` folder wherever you like
 
 ## Now
 
