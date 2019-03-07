@@ -19,11 +19,11 @@ export default class Index extends React.Component {
     const query = qs.parse(window.location.search.replace('?', ''))
     const board = query.board || Math.random().toString(36).slice(2)
     const location = /board/.test(window.location) ? window.location : `${window.location}?board=${board}`
-    this.setState({board: board, location: location})
+    this.setState({ board: board, location: location })
     gun.get(board).on(state => {
       if (state !== undefined) {
         Object.keys(state).filter(key => key !== '_').forEach(key => {
-          const updatedState = {[key]: state[key]}
+          const updatedState = { [key]: state[key] }
           this.setState(updatedState)
         })
       }
@@ -34,16 +34,16 @@ export default class Index extends React.Component {
     const board = this.state.board
     const number = this.state.number
     const newNumber = number + 1
-    this.setState({number: newNumber})
-    gun.get(board).put({number: newNumber})
+    this.setState({ number: newNumber })
+    gun.get(board).put({ number: newNumber })
   }
 
   subtractOne () {
     const board = this.state.board
     const number = this.state.number
     const newNumber = number - 1
-    this.setState({number: newNumber})
-    gun.get(board).put({number: newNumber})
+    this.setState({ number: newNumber })
+    gun.get(board).put({ number: newNumber })
   }
 
   render () {
