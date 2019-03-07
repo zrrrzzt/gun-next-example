@@ -44,6 +44,5 @@ $ npm run deploy
 ```
 
 ## License
-[MIT](LICENSE)
 
-![Robohash image of gun-next-example](https://robots.kebabstudios.party/gun-next-example.png "Robohash image of gun-next-example")
+[MIT](LICENSE)
