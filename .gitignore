@@ -1,5 +1,6 @@
 # IDE
 .idea
+.vs
 .vscode
 
 # Mac OS
@@ -64,8 +65,8 @@ typings/
 # dotenv environment variables file
 .env
 
-# package-lock
-package-lock.json
+# local
+ossl
 
 # Next
 .next
