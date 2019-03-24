@@ -27,7 +27,7 @@ Visit [localhost:3000](http://localhost:3000) to see it
 
 ## Export
 
-To export the app to static
+To export the app to a static server
 
 ```bash
 $ npm run export
@@ -38,6 +38,8 @@ Deploy the `out` folder wherever you like
 ## Now
 
 If you use [now](https://zeit.co/now) it's even easier to deploy the app
+
+Update alias in [now.json](now.json)
 
 ```bash
 $ npm run deploy

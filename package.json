@@ -31,9 +31,10 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
+    "now-build": "next build && next export",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
     "cleanup": "rm -rf .next && rm -rf out",
-    "deploy": "npm run export && now --static out --name gun-next-example"
+    "deploy": "now --target production"
   },
   "keywords": [
     "gun",
