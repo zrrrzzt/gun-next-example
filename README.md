@@ -23,7 +23,11 @@ Start the dev server
 $ npm run dev
 ```
 
-Visit [localhost:3000](http://localhost:3000) to see it
+Visit [localhost:3000](http://localhost:3000) to see it.
+
+Click on the link on the bottom of the page to visit the random generated area for sync of a number.
+
+Open the same url in different browsers and on different machines to see the sync in action.
 
 ## Export
 
