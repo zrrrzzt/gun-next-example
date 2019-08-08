@@ -44,8 +44,8 @@
   "dependencies": {
     "gun": "0.2019.627",
     "next": "9.0.1",
-    "react": "16.8.6",
-    "react-dom": "16.8.6"
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
   },
   "devDependencies": {
     "ava": "2.2.0",
