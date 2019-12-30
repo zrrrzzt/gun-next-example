@@ -42,7 +42,7 @@
     "example"
   ],
   "dependencies": {
-    "gun": "0.2019.1211",
+    "gun": "0.2019.1228",
     "next": "9.1.6",
     "react": "16.12.0",
     "react-dom": "16.12.0"
