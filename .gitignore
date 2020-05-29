@@ -71,3 +71,5 @@ ossl
 # Next
 .next
 out
+
+.vercel

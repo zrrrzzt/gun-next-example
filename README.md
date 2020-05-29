@@ -41,9 +41,9 @@ Deploy the `out` folder wherever you like
 
 ## Now
 
-If you use [now](https://zeit.co/now) it's even easier to deploy the app
+If you use [vercel](https://vercel.com) it's even easier to deploy the app
 
-Update alias in [now.json](now.json)
+Update [vercel.json](vercel.json)
 
 ```bash
 $ npm run deploy
