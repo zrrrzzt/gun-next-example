@@ -3,7 +3,7 @@ import Gun from 'gun/gun'
 import Layout from '../components/Layout'
 const qs = require('querystring')
 
-const gun = Gun('https://gunjs.herokuapp.com/gun')
+const gun = Gun('https://mvp-gun.herokuapp.com/gun')
 
 export default class Index extends React.Component {
   constructor (props) {
