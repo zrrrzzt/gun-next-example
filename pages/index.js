@@ -30,7 +30,7 @@ export default class Index extends React.Component {
     }, true)
   }
 
-  addOne () {
+  handleAddOne () {
     const board = this.state.board
     const number = this.state.number
     const newNumber = number + 1
@@ -38,7 +38,7 @@ export default class Index extends React.Component {
     gun.get(board).put({ number: newNumber })
   }
 
-  subtractOne () {
+  handleSubtractOne () {
     const board = this.state.board
     const number = this.state.number
     const newNumber = number - 1
@@ -52,8 +52,8 @@ export default class Index extends React.Component {
         <div>
           <h1>gun Next.js example</h1>
           <h2>{this.state.number}</h2>
-          <button onClick={this.subtractOne}>Subtract 1</button>
-          <button onClick={this.addOne}>Add 1</button>
+          <button onClick={this.handleSubtractOne}>Subtract 1</button>
+          <button onClick={this.handleAddOne}>Add 1</button>
           <p>
             <a href={this.state.location}>{`${this.state.location}`}</a>
           </p>

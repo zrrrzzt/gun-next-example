@@ -11,10 +11,10 @@ export default ({ children }) => (
       <link rel='icon' type='image/png' href='static/favicon-16x16.png' sizes='16x16' />
       <link rel='icon' type='image/png' href='static/favicon-128.png' sizes='128x128' />
       <title>
-        { name }
+        {name}
       </title>
     </Head>
-    { children }
+    {children}
     <Footer />
     <style jsx global>
       {` 
