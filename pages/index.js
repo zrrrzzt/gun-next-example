@@ -11,8 +11,8 @@ export default class Index extends React.Component {
     this.state = {
       number: 0
     }
-    this.addOne = this.addOne.bind(this)
-    this.subtractOne = this.subtractOne.bind(this)
+    this.handleAddOne = this.handleAddOne.bind(this)
+    this.handleSubtractOne = this.handleSubtractOne.bind(this)
   }
 
   async componentDidMount () {
