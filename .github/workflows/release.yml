@@ -13,6 +13,6 @@ jobs:
         node-version: 12
     - run: npm install
     - run: npm test
-    - run: vc --prod --confirm --token ${VERCEL_TOKEN}
+    - run: now --prod --confirm --token ${VERCEL_TOKEN}
       env:
         VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
