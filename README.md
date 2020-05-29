@@ -39,7 +39,7 @@ $ npm run export
 
 Deploy the `out` folder wherever you like
 
-## Now
+## Vercel
 
 If you use [vercel](https://vercel.com) it's even easier to deploy the app
 
