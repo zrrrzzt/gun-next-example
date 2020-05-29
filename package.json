@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/zrrrzzt/gun-next-example#readme",
   "engines": {
-    "node": ">=10.15.3"
+    "node": ">=12.17.0"
   },
   "scripts": {
     "test": "standard && npm audit && ava",
